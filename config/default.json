@@ -1,0 +1,23 @@
+{
+  "connector": {
+    "appName": "REPLACE WITH THE CONNECTOR APP NAME FROM DEV WORKSPACE",
+    "clientId": "REPLACE WITH THE CLIENT ID FROM DEV WORKSPACE",
+    "clientSecret": "REPLACE WITH THE CLIENT SECRET FROM DEV WORKSPACE"
+  },
+  "deviceProfiles": {
+    "color": "REPLACE WITH YOUR DEVICE PROFILE ID FROM DEV WORKSPACE"
+  },
+  "lifx": {
+    "apiEndpoint": "https://api.lifx.com/v1",
+    "oauthEndpoint": "https://cloud.lifx.com/oauth",
+    "clientId": "",
+    "clientSecret": ""
+  },
+  "smartThings": {
+    "apiEndpoint": "https://api.smartthings.com"
+  },
+  "redis": {
+    "host": "127.0.0.1",
+    "port": 6379
+  }
+}

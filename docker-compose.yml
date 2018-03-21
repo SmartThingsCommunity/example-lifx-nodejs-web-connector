@@ -1,0 +1,6 @@
+version: '2'
+services:
+  redis:
+    image: redis:3.2.8
+    ports:
+      - "6379:6379"
