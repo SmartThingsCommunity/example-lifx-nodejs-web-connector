@@ -131,11 +131,17 @@ function handleCallback(req, response) {
             break;
         }
 
+        case 'EXECUTE': {
+            log.trace(`${evt.lifecycle}\nREQUEST: ${JSON.stringify(evt, null, 2)}`);
+            break;
+        }
+
+
         default: {
             console.log(`Lifecycle ${evt.lifecycle} not supported`);
         }
     }
 }
 
-app.listen(3000);
-log.info('Open: http://127.0.0.1:3000');
+app.listen(3003);
+log.info('Open: http://127.0.0.1:3003');
